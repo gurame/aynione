@@ -1647,6 +1647,12 @@
           "lib/netstandard1.1/xunit.execution.dotnet.dll": {}
         }
       },
+      "xunit.runner.console/2.3.0": {
+        "type": "package",
+        "build": {
+          "build/xunit.runner.console.props": {}
+        }
+      },
       "xunit.runner.visualstudio/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -5592,6 +5598,46 @@
         "xunit.extensibility.execution.nuspec"
       ]
     },
+    "xunit.runner.console/2.3.0": {
+      "sha512": "aShkI/K5V5N72OtyqehY6n9cJdR1aj4AXjyElkRsS8ytbLKh0k/RItADptDYdfwcjFRnq2La0PMyFp15k2O46Q==",
+      "type": "package",
+      "path": "xunit.runner.console/2.3.0",
+      "files": [
+        "build/xunit.runner.console.props",
+        "tools/net452/xunit.abstractions.dll",
+        "tools/net452/xunit.console.exe",
+        "tools/net452/xunit.console.exe.config",
+        "tools/net452/xunit.console.x86.exe",
+        "tools/net452/xunit.console.x86.exe.config",
+        "tools/net452/xunit.runner.reporters.net452.dll",
+        "tools/net452/xunit.runner.utility.net452.dll",
+        "tools/netcoreapp1.0/Microsoft.DotNet.InternalAbstractions.dll",
+        "tools/netcoreapp1.0/Microsoft.Extensions.DependencyModel.dll",
+        "tools/netcoreapp1.0/Newtonsoft.Json.dll",
+        "tools/netcoreapp1.0/System.Runtime.Serialization.Primitives.dll",
+        "tools/netcoreapp1.0/xunit.abstractions.dll",
+        "tools/netcoreapp1.0/xunit.console.deps.json",
+        "tools/netcoreapp1.0/xunit.console.dll",
+        "tools/netcoreapp1.0/xunit.console.dll.config",
+        "tools/netcoreapp1.0/xunit.console.runtimeconfig.json",
+        "tools/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll",
+        "tools/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll",
+        "tools/netcoreapp1.0/xunit.runner.utility.netcoreapp10.xml",
+        "tools/netcoreapp2.0/Microsoft.DotNet.InternalAbstractions.dll",
+        "tools/netcoreapp2.0/Microsoft.Extensions.DependencyModel.dll",
+        "tools/netcoreapp2.0/Newtonsoft.Json.dll",
+        "tools/netcoreapp2.0/xunit.abstractions.dll",
+        "tools/netcoreapp2.0/xunit.console.deps.json",
+        "tools/netcoreapp2.0/xunit.console.dll",
+        "tools/netcoreapp2.0/xunit.console.dll.config",
+        "tools/netcoreapp2.0/xunit.console.runtimeconfig.json",
+        "tools/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll",
+        "tools/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll",
+        "tools/netcoreapp2.0/xunit.runner.utility.netcoreapp10.xml",
+        "xunit.runner.console.2.3.0.nupkg.sha512",
+        "xunit.runner.console.nuspec"
+      ]
+    },
     "xunit.runner.visualstudio/2.2.0": {
       "sha512": "CZimTpet23CeI2oXjDtICecAuEJ8Z4xSwNFY2tTKcGfm4IzKBrFmS3yzdqMMdAfiHYUgKlcyefflLOyO9ArKyQ==",
       "type": "package",
@@ -5627,6 +5673,7 @@
       "Microsoft.NETCore.App >= 2.0.0",
       "aynione.core >= 1.0.0",
       "xunit >= 2.2.0",
+      "xunit.runner.console >= 2.3.0",
       "xunit.runner.visualstudio >= 2.2.0"
     ]
   },
@@ -5636,12 +5683,15 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "D:\\virtualenvs\\aynione\\tests\\aynione.unittest\\aynione.unittest.csproj",
+      "projectUniqueName": "D:\\virtualenvs\\aynione\\Tests\\aynione.unittest\\aynione.unittest.csproj",
       "projectName": "aynione.unittest",
-      "projectPath": "D:\\virtualenvs\\aynione\\tests\\aynione.unittest\\aynione.unittest.csproj",
+      "projectPath": "D:\\virtualenvs\\aynione\\Tests\\aynione.unittest\\aynione.unittest.csproj",
       "packagesPath": "C:\\Users\\greg\\.nuget\\packages\\",
-      "outputPath": "D:\\virtualenvs\\aynione\\tests\\aynione.unittest\\obj\\",
+      "outputPath": "D:\\virtualenvs\\aynione\\Tests\\aynione.unittest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5675,23 +5725,26 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "xunit.runner.visualstudio": {
+            "target": "Package",
+            "version": "2.2.0"
+          },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
-          },
-          "Microsoft.NET.Test.Sdk": {
-            "target": "Package",
-            "version": "15.3.0-preview-20170628-02"
           },
           "xunit": {
             "target": "Package",
             "version": "2.2.0"
           },
-          "xunit.runner.visualstudio": {
+          "Microsoft.NET.Test.Sdk": {
             "target": "Package",
-            "version": "2.2.0"
+            "version": "15.3.0-preview-20170628-02"
+          },
+          "xunit.runner.console": {
+            "target": "Package",
+            "version": "2.3.0"
           }
         },
         "imports": [
