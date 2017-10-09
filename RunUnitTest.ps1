@@ -10,4 +10,4 @@ write-host "author email" $env:APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL
 
 Get-ChildItem  *
 
-& $coveralls --opencover -i "./coverage.xml" --repoToken "MwCrQHSHjSubfBOeO2FFTxuO5bmdq1Aho" --commitId $env:APPVEYOR_REPO_COMMIT --commitBranch $env:APPVEYOR_REPO_BRANCH --commitAuthor $env:APPVEYOR_REPO_COMMIT_AUTHOR --commitEmail $env:APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL --commitMessage $env:APPVEYOR_REPO_COMMIT_MESSAGE --jobId $env:APPVEYOR_JOB_ID  
+& $coveralls --opencover -i "./coverage.xml" --repoToken "MwCrQHSHjSubfBOeO2FFTxuO5bmdq1Aho" 
