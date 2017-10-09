@@ -5754,17 +5754,17 @@
     ]
   },
   "packageFolders": {
-    "D:\\virtualenvs\\aynione\\Packages": {},
+    "C:\\Users\\greg\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\virtualenvs\\aynione\\Tests\\aynione.unittest\\aynione.unittest.csproj",
+      "projectUniqueName": "D:\\virtualenvs\\aynione\\tests\\aynione.unittest\\aynione.unittest.csproj",
       "projectName": "aynione.unittest",
-      "projectPath": "D:\\virtualenvs\\aynione\\Tests\\aynione.unittest\\aynione.unittest.csproj",
-      "packagesPath": "D:\\virtualenvs\\aynione\\Packages",
-      "outputPath": "D:\\virtualenvs\\aynione\\Tests\\aynione.unittest\\obj\\",
+      "projectPath": "D:\\virtualenvs\\aynione\\tests\\aynione.unittest\\aynione.unittest.csproj",
+      "packagesPath": "C:\\Users\\greg\\.nuget\\packages\\",
+      "outputPath": "D:\\virtualenvs\\aynione\\tests\\aynione.unittest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

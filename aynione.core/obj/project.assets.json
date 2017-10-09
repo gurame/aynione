@@ -664,7 +664,7 @@
     ]
   },
   "packageFolders": {
-    "D:\\virtualenvs\\aynione\\Packages": {},
+    "C:\\Users\\greg\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -673,7 +673,7 @@
       "projectUniqueName": "D:\\virtualenvs\\aynione\\aynione.core\\aynione.core.csproj",
       "projectName": "aynione.core",
       "projectPath": "D:\\virtualenvs\\aynione\\aynione.core\\aynione.core.csproj",
-      "packagesPath": "D:\\virtualenvs\\aynione\\Packages",
+      "packagesPath": "C:\\Users\\greg\\.nuget\\packages\\",
       "outputPath": "D:\\virtualenvs\\aynione\\aynione.core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
