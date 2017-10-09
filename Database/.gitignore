@@ -1,0 +1,6 @@
+#flyway
+conf/flyway.conf
+flyway.conf
+
+# MAC files
+.DS_Store
