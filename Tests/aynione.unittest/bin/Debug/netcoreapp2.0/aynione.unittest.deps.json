@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "1dd95dd2d0fafa61a502c5060bc1cf86e0b150a4"
+    "signature": "6a773060d4e491ba038e8c3cfb28196160a08fc2"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,7 @@
           "Microsoft.NET.Test.Sdk": "15.3.0-preview-20170628-02",
           "aynione.core": "1.0.0",
           "xunit": "2.2.0",
+          "xunit.runner.console": "2.3.0",
           "xunit.runner.visualstudio": "2.2.0"
         },
         "runtime": {
@@ -1017,6 +1018,7 @@
           "lib/netstandard1.1/xunit.execution.dotnet.dll": {}
         }
       },
+      "xunit.runner.console/2.3.0": {},
       "xunit.runner.visualstudio/2.2.0": {
         "dependencies": {
           "Microsoft.DotNet.PlatformAbstractions": "1.1.0",
@@ -1555,6 +1557,13 @@
       "sha512": "sha512-4gjTrSUd/F6/pdsMsf+a1f1tcaUQnr59JvZQulmF8VwQbCh34ifie3iqriYyKyLmTQDUEJ/ZTPeZEDh0pxpTLA==",
       "path": "xunit.extensibility.execution/2.2.0",
       "hashPath": "xunit.extensibility.execution.2.2.0.nupkg.sha512"
+    },
+    "xunit.runner.console/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aShkI/K5V5N72OtyqehY6n9cJdR1aj4AXjyElkRsS8ytbLKh0k/RItADptDYdfwcjFRnq2La0PMyFp15k2O46Q==",
+      "path": "xunit.runner.console/2.3.0",
+      "hashPath": "xunit.runner.console.2.3.0.nupkg.sha512"
     },
     "xunit.runner.visualstudio/2.2.0": {
       "type": "package",

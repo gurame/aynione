@@ -3,4 +3,6 @@ image: Visual Studio 2017
 before_build:
 - dotnet restore
 build_script:
-    cmd: dotnet build
+  cmd: dotnet build 
+test_script:
+- dotnet test    
