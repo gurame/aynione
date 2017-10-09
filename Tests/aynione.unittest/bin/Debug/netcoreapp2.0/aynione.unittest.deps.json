@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "3aaa45feb70980e20f360d613a553bf24d11cfdd"
+    "signature": "96d0478398fb223482ab5958ac491e9093e0b675"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,7 @@
           "Microsoft.NET.Test.Sdk": "15.3.0-preview-20170628-02",
           "OpenCover": "4.6.519",
           "aynione.core": "1.0.0",
+          "coveralls.net": "0.7.0",
           "xunit": "2.2.0",
           "xunit.runner.console": "2.3.0",
           "xunit.runner.visualstudio": "2.2.0"
@@ -19,6 +20,7 @@
           "aynione.unittest.dll": {}
         }
       },
+      "coveralls.net/0.7.0": {},
       "Microsoft.CSharp/4.0.1": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -1041,6 +1043,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "coveralls.net/0.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9cP8EbxrFileX6Yu7rPaLbq8oiOsPE422dunmPWVJuo01d7KqTgjoSFlA9l01+FMxA/X/1BnUxqUYU1a3y/bvA==",
+      "path": "coveralls.net/0.7.0",
+      "hashPath": "coveralls.net.0.7.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.0.1": {
       "type": "package",

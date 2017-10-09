@@ -2,6 +2,9 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "coveralls.net/0.7.0": {
+        "type": "package"
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -1682,6 +1685,23 @@
     }
   },
   "libraries": {
+    "coveralls.net/0.7.0": {
+      "sha512": "9cP8EbxrFileX6Yu7rPaLbq8oiOsPE422dunmPWVJuo01d7KqTgjoSFlA9l01+FMxA/X/1BnUxqUYU1a3y/bvA==",
+      "type": "package",
+      "path": "coveralls.net/0.7.0",
+      "files": [
+        "coveralls.net.0.7.0.nupkg.sha512",
+        "coveralls.net.nuspec",
+        "tools/BCLExtensions.dll",
+        "tools/Beefeater.dll",
+        "tools/DocoptNet.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/System.Net.Http.Extensions.dll",
+        "tools/System.Net.Http.Primitives.dll",
+        "tools/csmacnz.Coveralls.exe",
+        "tools/csmacnz.Coveralls.exe.config"
+      ]
+    },
     "Microsoft.CSharp/4.0.1": {
       "sha512": "17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
       "type": "package",
@@ -5727,23 +5747,24 @@
       "Microsoft.NETCore.App >= 2.0.0",
       "OpenCover >= 4.6.519",
       "aynione.core >= 1.0.0",
+      "coveralls.net >= 0.7.0",
       "xunit >= 2.2.0",
       "xunit.runner.console >= 2.3.0",
       "xunit.runner.visualstudio >= 2.2.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\greg\\.nuget\\packages\\": {},
+    "D:\\virtualenvs\\aynione\\Packages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\virtualenvs\\aynione\\tests\\aynione.unittest\\aynione.unittest.csproj",
+      "projectUniqueName": "D:\\virtualenvs\\aynione\\Tests\\aynione.unittest\\aynione.unittest.csproj",
       "projectName": "aynione.unittest",
-      "projectPath": "D:\\virtualenvs\\aynione\\tests\\aynione.unittest\\aynione.unittest.csproj",
-      "packagesPath": "C:\\Users\\greg\\.nuget\\packages\\",
-      "outputPath": "D:\\virtualenvs\\aynione\\tests\\aynione.unittest\\obj\\",
+      "projectPath": "D:\\virtualenvs\\aynione\\Tests\\aynione.unittest\\aynione.unittest.csproj",
+      "packagesPath": "D:\\virtualenvs\\aynione\\Packages",
+      "outputPath": "D:\\virtualenvs\\aynione\\Tests\\aynione.unittest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5782,6 +5803,10 @@
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
+          },
+          "coveralls.net": {
+            "target": "Package",
+            "version": "0.7.0"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

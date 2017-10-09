@@ -1,8 +1,12 @@
 version: '1.0.{build}'
 image: Visual Studio 2017
+environment:
+  COVERALLS_REPO_TOKEN:
+    secure: MwCrQHSHjSubfBOeO2FFTxuO5bmdq1Aho
 before_build:
 - choco install opencover.portable
 - dotnet restore
+- nuget restore ./packages.tools.config -OutputDirectory ./Packages
 build_script:
   cmd: dotnet build 
 test_script:
