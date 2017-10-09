@@ -1,0 +1,16 @@
+D:\virtualenvs\aynione\Tests\aynione.unittest\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\virtualenvs\aynione\Tests\aynione.unittest\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+D:\virtualenvs\aynione\Tests\aynione.unittest\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+D:\virtualenvs\aynione\Tests\aynione.unittest\bin\Debug\netcoreapp2.0\aynione.unittest.deps.json
+D:\virtualenvs\aynione\Tests\aynione.unittest\bin\Debug\netcoreapp2.0\aynione.unittest.runtimeconfig.json
+D:\virtualenvs\aynione\Tests\aynione.unittest\bin\Debug\netcoreapp2.0\aynione.unittest.runtimeconfig.dev.json
+D:\virtualenvs\aynione\Tests\aynione.unittest\bin\Debug\netcoreapp2.0\aynione.unittest.dll
+D:\virtualenvs\aynione\Tests\aynione.unittest\bin\Debug\netcoreapp2.0\aynione.unittest.pdb
+D:\virtualenvs\aynione\Tests\aynione.unittest\bin\Debug\netcoreapp2.0\aynione.core.dll
+D:\virtualenvs\aynione\Tests\aynione.unittest\bin\Debug\netcoreapp2.0\aynione.core.pdb
+D:\virtualenvs\aynione\Tests\aynione.unittest\obj\Debug\netcoreapp2.0\aynione.unittest.csprojResolveAssemblyReference.cache
+D:\virtualenvs\aynione\Tests\aynione.unittest\obj\Debug\netcoreapp2.0\aynione.unittest.csproj.CoreCompileInputs.cache
+D:\virtualenvs\aynione\Tests\aynione.unittest\obj\Debug\netcoreapp2.0\aynione.unittest.AssemblyInfoInputs.cache
+D:\virtualenvs\aynione\Tests\aynione.unittest\obj\Debug\netcoreapp2.0\aynione.unittest.AssemblyInfo.cs
+D:\virtualenvs\aynione\Tests\aynione.unittest\obj\Debug\netcoreapp2.0\aynione.unittest.dll
+D:\virtualenvs\aynione\Tests\aynione.unittest\obj\Debug\netcoreapp2.0\aynione.unittest.pdb

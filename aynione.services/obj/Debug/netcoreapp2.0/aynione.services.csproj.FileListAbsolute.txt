@@ -1,0 +1,9 @@
+D:\virtualenvs\aynione\aynione.services\bin\Debug\netcoreapp2.0\aynione.services.deps.json
+D:\virtualenvs\aynione\aynione.services\bin\Debug\netcoreapp2.0\aynione.services.dll
+D:\virtualenvs\aynione\aynione.services\bin\Debug\netcoreapp2.0\aynione.services.pdb
+D:\virtualenvs\aynione\aynione.services\obj\Debug\netcoreapp2.0\aynione.services.csprojResolveAssemblyReference.cache
+D:\virtualenvs\aynione\aynione.services\obj\Debug\netcoreapp2.0\aynione.services.csproj.CoreCompileInputs.cache
+D:\virtualenvs\aynione\aynione.services\obj\Debug\netcoreapp2.0\aynione.services.AssemblyInfoInputs.cache
+D:\virtualenvs\aynione\aynione.services\obj\Debug\netcoreapp2.0\aynione.services.AssemblyInfo.cs
+D:\virtualenvs\aynione\aynione.services\obj\Debug\netcoreapp2.0\aynione.services.dll
+D:\virtualenvs\aynione\aynione.services\obj\Debug\netcoreapp2.0\aynione.services.pdb

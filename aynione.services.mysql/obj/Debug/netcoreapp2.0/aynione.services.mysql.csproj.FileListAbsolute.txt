@@ -1,0 +1,9 @@
+D:\virtualenvs\aynione\aynione.services.mysql\bin\Debug\netcoreapp2.0\aynione.services.mysql.deps.json
+D:\virtualenvs\aynione\aynione.services.mysql\bin\Debug\netcoreapp2.0\aynione.services.mysql.dll
+D:\virtualenvs\aynione\aynione.services.mysql\bin\Debug\netcoreapp2.0\aynione.services.mysql.pdb
+D:\virtualenvs\aynione\aynione.services.mysql\obj\Debug\netcoreapp2.0\aynione.services.mysql.csproj.CoreCompileInputs.cache
+D:\virtualenvs\aynione\aynione.services.mysql\obj\Debug\netcoreapp2.0\aynione.services.mysql.AssemblyInfoInputs.cache
+D:\virtualenvs\aynione\aynione.services.mysql\obj\Debug\netcoreapp2.0\aynione.services.mysql.AssemblyInfo.cs
+D:\virtualenvs\aynione\aynione.services.mysql\obj\Debug\netcoreapp2.0\aynione.services.mysql.dll
+D:\virtualenvs\aynione\aynione.services.mysql\obj\Debug\netcoreapp2.0\aynione.services.mysql.pdb
+D:\virtualenvs\aynione\aynione.services.mysql\obj\Debug\netcoreapp2.0\aynione.services.mysql.csprojResolveAssemblyReference.cache

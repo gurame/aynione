@@ -1,12 +1,23 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aynione.website", "aynione.website\aynione.website.csproj", "{0E29B7F5-CBF8-4B2A-8631-095F3F96E66D}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aynione.website", "aynione.website\aynione.website.csproj", "{0E29B7F5-CBF8-4B2A-8631-095F3F96E66D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{458A0E35-887C-45F0-AF3B-BB0303F49C8C}"
 	ProjectSection(SolutionItems) = preProject
 		appveyor.yml = appveyor.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aynione.services", "aynione.services\aynione.services.csproj", "{9F08E305-F0E9-498F-B839-0ADF57210846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aynione.core", "aynione.core\aynione.core.csproj", "{20D5BF7D-79E1-4517-832A-F2B51222FB80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aynione.services.mysql", "aynione.services.mysql\aynione.services.mysql.csproj", "{C0F1A5C6-1FFD-4D60-AC5B-1BBEE9F4A8E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D32EB07E-E102-4337-831F-2FEBD55E2114}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aynione.unittest", "Tests\aynione.unittest\aynione.unittest.csproj", "{C342F89A-3A2F-4875-B89C-77A9C112617F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +29,30 @@ Global
 		{0E29B7F5-CBF8-4B2A-8631-095F3F96E66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E29B7F5-CBF8-4B2A-8631-095F3F96E66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E29B7F5-CBF8-4B2A-8631-095F3F96E66D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F08E305-F0E9-498F-B839-0ADF57210846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F08E305-F0E9-498F-B839-0ADF57210846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F08E305-F0E9-498F-B839-0ADF57210846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F08E305-F0E9-498F-B839-0ADF57210846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D5BF7D-79E1-4517-832A-F2B51222FB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D5BF7D-79E1-4517-832A-F2B51222FB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D5BF7D-79E1-4517-832A-F2B51222FB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D5BF7D-79E1-4517-832A-F2B51222FB80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F1A5C6-1FFD-4D60-AC5B-1BBEE9F4A8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F1A5C6-1FFD-4D60-AC5B-1BBEE9F4A8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F1A5C6-1FFD-4D60-AC5B-1BBEE9F4A8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F1A5C6-1FFD-4D60-AC5B-1BBEE9F4A8E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C342F89A-3A2F-4875-B89C-77A9C112617F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C342F89A-3A2F-4875-B89C-77A9C112617F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C342F89A-3A2F-4875-B89C-77A9C112617F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C342F89A-3A2F-4875-B89C-77A9C112617F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C342F89A-3A2F-4875-B89C-77A9C112617F} = {D32EB07E-E102-4337-831F-2FEBD55E2114}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4181D007-3F31-4373-B4EE-6C90A206E7EF}
 	EndGlobalSection
 EndGlobal
