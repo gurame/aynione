@@ -9,6 +9,5 @@ write-host "message" $env:APPVEYOR_REPO_COMMIT_MESSAGE
 write-host "job id" $env:APPVEYOR_JOB_ID
 write-host "branch" $env:APPVEYOR_REPO_BRANCH
 write-host "author email" $env:APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL
-
 & $reportgenerator -reports:"./coverage.xml" -targetdir:coverage -verbosity:Error
-& $coveralls --opencover -i "./coverage.xml" --repoToken "MwCrQHSHjSubfBOeO2FFTxuO5bmdq1Aho" --useRelativePaths
+#& $coveralls --opencover -i "./coverage.xml" --repoToken "MwCrQHSHjSubfBOeO2FFTxuO5bmdq1Aho" --useRelativePaths
