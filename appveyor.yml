@@ -5,4 +5,4 @@ before_build:
 build_script:
   cmd: dotnet build 
 test_script:
-- dotnet test    
+- dotnet test ./tests/aynione.unittest/aynione.unittest.csproj
